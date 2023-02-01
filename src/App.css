@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+header {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  align-items: center;
+  border-bottom: solid 2px rgb(158, 158, 158);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: Montserrat;
+  font-size: 48px;
+  margin-left: 50px;
+}
+button {
+  height: 60px;
+  width: 120px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ON {
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
+  gap: 30px;
+}
+.OFF {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 280px;
+}
+.button {
+  display: flex;
+}
+.purple {
+  background-color: #5c48d3;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-size: 36px;
+  color: white;
+  border: rgb(158, 158, 158) solid 1px;
+}
+.white {
+  background-color: white;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-size: 36px;
+  color: #5c48d3;
+  border: rgb(158, 158, 158) solid 1px;
+}
+
+.ready {
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-size: 48px;
+  color: white;
+  font-family: Montserrat;
+}
+.green {
+  background-color: green;
+  width: 180px;
+  border-radius: 10px;
+  height: 75px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: rgb(158, 158, 158) solid 1px;
+}
+.red {
+  background-color: #d34849;
+  width: 200px;
+  border-radius: 10px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: rgb(158, 158, 158) solid 1px;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  text-align: center;
+  font-family: Montserrat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  font-family: Montserrat;
+  font-weight: bolder;
+  color: #5c48d3;
+  font-size: 16px;
 }
